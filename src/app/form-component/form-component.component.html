@@ -1,0 +1,44 @@
+<h1>Form component</h1>
+<mat-card>
+    <form [formGroup]="profileForm" class="example-form"(ngSubmit)="onSubmit()">
+  
+       
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="First Name" value="" formControlName="firstName">
+    </mat-form-field>
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Last Name" value="" formControlName="lastName">
+    </mat-form-field>
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>Adress</mat-label>
+        <input matInput placeholder="Adress" value="" formControlName="adress">
+    </mat-form-field>
+      
+    <mat-form-field class="example-full-width">
+        <mat-label>city</mat-label>
+        <input matInput placeholder="city" value="" formControlName="city">
+    </mat-form-field>    
+    
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>State</mat-label>
+        <input matInput placeholder="State" value="" formControlName="state">
+    </mat-form-field>
+    
+    <mat-form-field class="example-full-width">
+        <mat-label>Zip Code:</mat-label>
+        <input matInput placeholder="zip" value="" formControlName="zip">
+    </mat-form-field> 
+    
+    <button mat-raised-button color="primary" type="submit">Submit</button> 
+      </form>
+         
+    
+    
+</mat-card>
+

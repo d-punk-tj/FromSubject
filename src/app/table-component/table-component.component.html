@@ -1,0 +1,17 @@
+<h1>Table component</h1>
+
+<mat-card *ngIf="FormData">
+    <mat-list >
+        <mat-list-item >First Name : {{FormData.firstName}}</mat-list-item>
+        <mat-list-item >lastName : {{FormData.lastName}}</mat-list-item>
+        <mat-list-item >adress : {{FormData.adress}}</mat-list-item>
+        <mat-list-item >city : {{FormData.city}}</mat-list-item>
+        <mat-list-item >state : {{FormData.state}}</mat-list-item>
+        <mat-list-item >zip : {{FormData.zip}}</mat-list-item>
+    </mat-list>
+</mat-card>
+
+
+
+
+<!-- <p>{{FormData | json}}</p> -->
